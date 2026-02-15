@@ -128,8 +128,8 @@ class FaceStabilityAnalyzer:
         return min(0.4 * stability + 0.3 * blink_freq + 0.3 * smoothness, 1.0)
 
 # Streamlit UI
-st.markdown("# 🔐 Deepfake Detection System")
-st.markdown("Powered by **MediaPipe** & **AI** | Real-time Face Analysis")
+st.markdown("# KYC-Deepfake Detection System")
+st.markdown("Proposed by **Team-Alpha Coder**  | Real-time Deepfake KYC detection System")
 
 col1, col2 = st.columns([2, 1])
 
