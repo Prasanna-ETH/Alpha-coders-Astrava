@@ -128,6 +128,7 @@ class FaceStabilityAnalyzer:
         return min(0.4 * stability + 0.3 * blink_freq + 0.3 * smoothness, 1.0)
 
 # Streamlit UI
+st.image("logo.jpg", width=100)
 st.markdown("# KYC-Deepfake Detection System")
 st.markdown("Proposed by **Team-Alpha Coder**  | Real-time Deepfake KYC detection System")
 
